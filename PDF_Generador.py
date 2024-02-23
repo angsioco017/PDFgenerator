@@ -47,7 +47,7 @@ def generar_pdf(cantidad):
             i += 1
 
 def main():
-    cantidad = int(input("Introduce la cantidad de documentos a generar: "))
+    cantidad = int(input("Marvin Generator "))
     generar_pdf(cantidad)
     print("PDFs Generados")
 
